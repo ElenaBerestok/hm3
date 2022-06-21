@@ -7,18 +7,14 @@ console.log(userAnswer);
 const userAnswerTwo = Number(prompt ('Выберите ещё одно число'));
 console.log(userAnswerTwo);
 
-if (userAnswer > userAnswerTwo){
+if (userAnswer > userAnswerTwo) {
     alert ('Число '+ userAnswer + ' больше, чем число '+ userAnswerTwo);
-} 
-else if (userAnswer < userAnswerTwo){
+} else if (userAnswer < userAnswerTwo) {
     alert ('Число '+ userAnswer +  ' меньше, чем число '+ userAnswerTwo);
-}
-else if (userAnswer = userAnswerTwo){
+} else {
     alert ('Числa равны');
-}
-else {
-    alert ('Укажите число')
-}
+    console.log ('Числa равны');
+} 
 
 
 // ДЗ пункт 2
@@ -49,7 +45,7 @@ switch (questionThree){
         alert ( 'Не знаю такого действия');
 }
 
-// ДЗ пункт 3
+// // ДЗ пункт 3
 
 const userAge = Number(prompt ('Укажите свой возраст'));
 console.log(userAge);
